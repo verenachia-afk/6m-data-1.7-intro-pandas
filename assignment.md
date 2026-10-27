@@ -19,9 +19,18 @@ Test your understanding before diving into the code.
 
 **Question 1:** What is the key difference between a Pandas `Series` and a `DataFrame`?
 
+series is a single column 
+dataframe is more of a excel table 
+
 **Question 2:** You run `df.loc[0:3]`. How many rows do you get? What about `df.iloc[0:3]`?
 
+4 row s
+3 rows
+
 **Question 3:** You have a DataFrame with a `price` column stored as `object` type (strings like "£45.99"). What problem does this cause, and how do you fix it?
+
+not read numerically not able to apply any functions 
+
 
 **Question 4:** When would you use `.apply()` instead of a direct vectorised operation like `df['col'] * 2`?
 
